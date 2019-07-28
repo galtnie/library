@@ -39,7 +39,7 @@ function App() {
         <CssBaseline />
         <Container maxWidth="md">
           <StyledPaper component="div" elevation={2}>
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
               <Route
                 path="/"
                 exact
