@@ -1,3 +1,4 @@
-export const STEP_FORTH = "STEP_FORTH";
+export const CHANGE_STEPPER = "CHANGE_STEPPER";
+export const RESET_STEPPER = "RESET_STEPPER";
 export const INPUT_NEW_DATA = "INPUT_NEW_DATA";
 export const RESET_NEW_DATA = "RESET_NEW_DATA";

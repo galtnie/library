@@ -1,9 +1,20 @@
-import { STEP_FORTH, INPUT_NEW_DATA, RESET_NEW_DATA } from "./types";
+import {
+  CHANGE_STEPPER,
+  INPUT_NEW_DATA,
+  RESET_NEW_DATA,
+  RESET_STEPPER,
+} from "./types";
 
 export const stepForth = state => {
   return {
-    type: STEP_FORTH,
+    type: CHANGE_STEPPER,
     payload: state,
+  };
+};
+
+export const resetStepper = () => {
+  return {
+    type: RESET_STEPPER,
   };
 };
 
